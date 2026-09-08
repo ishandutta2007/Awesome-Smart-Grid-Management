@@ -22,32 +22,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[OSI Monarch (AspenTech)](https://www.aspentech.com/)**  
-  High-performance OT-native platform for real-time grid telemetry, SCADA, and mission-critical utility operations.
-
-- **[Siemens Grid Software / Gridscale X](https://www.siemens.com/)**  
-  Comprehensive grid software suite covering planning, operations, ADMS/DERMS capabilities, digital twins, and AI-assisted flexibility management.
-
-- **[GE Vernova GridOS](https://www.gevernova.com/)**  
-  Grid orchestration platform designed for transmission and distribution, supporting real-time coordination, renewables integration, and resilient operations.
-
-- **[Schneider Electric EcoStruxure Grid / ADMS](https://www.se.com/)**  
-  Industry-recognized Advanced Distribution Management System with strong DER management, outage response, Volt/VAR optimization, and grid-edge capabilities.
-
-- **[Hitachi Energy Lumada APM](https://www.hitachienergy.com/)**  
-  Asset performance and grid management solutions focused on reliability, predictive maintenance, and operational intelligence for power systems.
-
-- **[AutoGrid](https://www.auto-grid.com/)**  
-  Flexibility management and DERMS platform enabling real-time optimization of distributed energy resources at scale for utilities and aggregators.
-
-- **[Uplight](https://www.uplight.com/)**  
-  Customer engagement and energy management platform that helps utilities activate demand-side flexibility and optimize energy use.
-
-- **[Smarter Grid Solutions, Camus Energy, EnergyHub](https://www.smartergridsolutions.com/)**  
-  Specialized DERMS, flexibility, and virtual power plant (VPP) platforms focused on distributed resources, grid-edge control, and market participation.
-
-- **[Other grid & utility platforms](https://www.siemens.com/)**  
-  Solutions from major vendors and specialists covering EMS, DMS, OMS, planning tools, and integrated digital grid stacks.
+| Product Name | Description | Pricing | Free Tier / Trial Limits |
+|---|---|---|---|
+| **[OSI Monarch (AspenTech)](https://www.aspentech.com/)** | High-performance OT-native platform for real-time grid telemetry, SCADA, and mission-critical utility operations. | $4,166/month ($50,000/year starting tier) | 30-day request-based sandbox evaluation (up to 25 telemetry points) |
+| **[Siemens Grid Software / Gridscale X](https://www.siemens.com/)** | Comprehensive grid software suite covering planning, operations, ADMS/DERMS capabilities, digital twins, and AI-assisted flexibility management. | $3,800/month ($45,600/year starting tier) | 60-day free trial (up to 150 grid nodes limit) |
+| **[GE Vernova GridOS](https://www.gevernova.com/)** | Grid orchestration platform designed for transmission and distribution, supporting real-time coordination, renewables integration, and resilient operations. | $4,166/month ($50,000/year starting tier) | 30-day proof-of-concept trial (1 simulated substation environment) |
+| **[Schneider Electric EcoStruxure Grid / ADMS](https://www.se.com/)** | Industry-recognized Advanced Distribution Management System with strong DER management, outage response, Volt/VAR optimization, and grid-edge capabilities. | $1,200/month ($14,400/year starting tier) | 30-day free trial (up to 25 connected grid edge assets) |
+| **[Hitachi Energy Lumada APM](https://www.hitachienergy.com/)** | Asset performance and grid management solutions focused on reliability, predictive maintenance, and operational intelligence for power systems. | $2,083/month ($25,000/year starting tier) | 30-day guided evaluation sandbox (up to 50 monitored asset models) |
+| **[AutoGrid Flex](https://www.auto-grid.com/)** | Flexibility management and DERMS platform enabling real-time optimization of distributed energy resources at scale for utilities and aggregators. | $1,250/month ($15,000/year starting tier) | 30-day sandbox trial (up to 10 MW managed capacity / 100 DER endpoints) |
+| **[Uplight](https://www.uplight.com/)** | Customer engagement and energy management platform that helps utilities activate demand-side flexibility and optimize energy use. | $1,666/month ($20,000/year starting tier) | 30-day platform demonstration trial (up to 1,000 simulated customer accounts) |
+| **[Smarter Grid Solutions (ANM Strata)](https://www.smartergridsolutions.com/)** | Active Network Management & DERMS platform focused on autonomous grid control, localized constraint management, and DER orchestration. | $1,666/month ($20,000/year starting tier) | 30-day developer evaluation license (up to 10 DER interconnection nodes) |
+| **[Camus Energy](https://camus.energy/)** | Grid management and DER orchestration SaaS platform enabling real-time visibility, load forecasting, and local flexibility management for utilities. | $1,000/month ($12,000/year starting tier) | 30-day free trial sandbox (up to 5 MW monitored capacity / 50 feeder assets) |
+| **[EnergyHub](https://www.energyhub.com/)** | Grid-edge DERMS and virtual power plant platform connecting utility systems with residential and commercial distributed energy devices. | $1,500/month ($18,000/year starting tier) | 30-day sandbox evaluation trial (up to 500 connected smart device endpoints) |
 
 ## Open-Source GitHub Projects
 
