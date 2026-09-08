@@ -52,28 +52,28 @@ These operational technology (OT) platforms enable electrical utilities, system 
 
 > ⚡ **Note**: While full mission-critical utility ADMS/SCADA systems remain commercial due to strict safety and regulatory compliance, open-source projects provide powerful building blocks for power system analysis, energy management, microgrid control, and IEC 61850 protocol integration.
 
-- **[PyPSA](https://github.com/PyPSA/PyPSA)** [![GitHub stars](https://img.shields.io/github/stars/PyPSA/PyPSA?style=social&color=white)](https://github.com/PyPSA/PyPSA/stargazers)  
+- **[PyPSA](https://github.com/PyPSA/PyPSA)** [![GitHub_Stars](https://img.shields.io/github/stars/PyPSA/PyPSA?style=social&color=white)](https://github.com/PyPSA/PyPSA/stargazers)  
   Python for Power System Analysis. Open-source toolbox for simulating and optimizing modern power systems, optimal power flow (OPF), sector coupling, and high-share renewable integration.
 
-- **[OpenEMS](https://github.com/OpenEMS/openems)** [![GitHub stars](https://img.shields.io/github/stars/OpenEMS/openems?style=social&color=white)](https://github.com/OpenEMS/openems/stargazers)  
+- **[OpenEMS](https://github.com/OpenEMS/openems)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenEMS/openems?style=social&color=white)](https://github.com/OpenEMS/openems/stargazers)  
   Open Source Energy Management System. Modular framework for energy management, microgrids, battery energy storage systems (BESS), solar PV regulation, and smart grid edge control.
 
-- **[libIEC61850](https://github.com/mz-automation/libiec61850)** [![GitHub stars](https://img.shields.io/github/stars/mz-automation/libiec61850?style=social&color=white)](https://github.com/mz-automation/libiec61850/stargazers)  
+- **[libIEC61850](https://github.com/mz-automation/libiec61850)** [![GitHub_Stars](https://img.shields.io/github/stars/mz-automation/libiec61850?style=social&color=white)](https://github.com/mz-automation/libiec61850/stargazers)  
   Open-source C library implementation of the IEC 61850 communication standard for power system automation, substation communication, MMS, GOOSE, and Sampled Values.
 
-- **[MyEMS](https://github.com/MyEMS/myems)** [![GitHub stars](https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white)](https://github.com/MyEMS/myems/stargazers)  
+- **[MyEMS](https://github.com/MyEMS/myems)** [![GitHub_Stars](https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white)](https://github.com/MyEMS/myems/stargazers)  
   Industry-leading open-source Energy Management System aligned with ISO 50001. Monitors, analyzes, and reports energy and carbon data with extensions for microgrids, PV, and storage.
 
-- **[GridLAB-D](https://github.com/GridLAB-D/gridlab-d)** [![GitHub stars](https://img.shields.io/github/stars/GridLAB-D/gridlab-d?style=social&color=white)](https://github.com/GridLAB-D/gridlab-d/stargazers)  
+- **[GridLAB-D](https://github.com/GridLAB-D/gridlab-d)** [![GitHub_Stars](https://img.shields.io/github/stars/GridLAB-D/gridlab-d?style=social&color=white)](https://github.com/GridLAB-D/gridlab-d/stargazers)  
   Power distribution system simulation and grid-edge modeling environment developed by US Department of Energy / PNNL for smart grid technology research.
 
-- **[Alliander DER Scheduling](https://github.com/alliander-opensource/der-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/alliander-opensource/der-scheduling?style=social&color=white)](https://github.com/alliander-opensource/der-scheduling/stargazers)  
+- **[Alliander DER Scheduling](https://github.com/alliander-opensource/der-scheduling)** [![GitHub_Stars](https://img.shields.io/github/stars/alliander-opensource/der-scheduling?style=social&color=white)](https://github.com/alliander-opensource/der-scheduling/stargazers)  
   Open-source scheduling stack for Distributed Energy Resources (DER) control according to IEC 61850 standards, aimed at production-grade DER coordination.
 
-- **[EnergyLink Open-Source DERMS](https://github.com/vpdeva/Energylink-Open-Source-DERMS)** [![GitHub stars](https://img.shields.io/github/stars/vpdeva/Energylink-Open-Source-DERMS?style=social&color=white)](https://github.com/vpdeva/Energylink-Open-Source-DERMS/stargazers)  
+- **[EnergyLink Open-Source DERMS](https://github.com/vpdeva/Energylink-Open-Source-DERMS)** [![GitHub_Stars](https://img.shields.io/github/stars/vpdeva/Energylink-Open-Source-DERMS?style=social&color=white)](https://github.com/vpdeva/Energylink-Open-Source-DERMS/stargazers)  
   Open-source platform exploring energy data exchange, DERMS concepts, telemetry connectors, analytics, and operator dashboarding.
 
-- **[Mini-DERMS / Feeder Controllers](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller)** [![GitHub stars](https://img.shields.io/github/stars/ceh6514/Mini-DERMS-Feeder-Controller?style=social&color=white)](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller/stargazers)  
+- **[Mini-DERMS / Feeder Controllers](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller)** [![GitHub_Stars](https://img.shields.io/github/stars/ceh6514/Mini-DERMS-Feeder-Controller?style=social&color=white)](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller/stargazers)  
   Educational and prototyping framework for feeder-level DER coordination, SCADA telemetry ingestion, closed-loop control, and operator dashboards.
 
 ### 🛠️ Ecosystem Components & Tooling
