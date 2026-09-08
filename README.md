@@ -1,96 +1,109 @@
-# Awesome-Smart-Grid-Management
+# ⚡ Awesome Smart Grid Management 🌐
 
-## Top Smart Grid Management Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Smart Grid Management Banner" width="100%">
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Grid Operations, ADMS/DERMS, Energy Management, Distributed Energy Resources, SCADA & Flexibility Platforms*  
-**Last updated: September 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Smart-Grid-Management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Smart-Grid-Management"><img src="https://img.shields.io/badge/Last%20Updated-September%202026-blue.svg" alt="Last Updated"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS/commercial platforms** and **open-source projects** for **Smart Grid Management**. These systems help utilities and energy operators monitor, control, optimize, and orchestrate transmission and distribution grids, including distributed energy resources (DERs), demand response, outage management, and real-time grid intelligence.
+## 💡 Overview & Ecosystem
 
-**Examples** include OSI Monarch (AspenTech), Siemens Grid Software / Gridscale X, GE GridOS, Schneider EcoStruxure Grid / ADMS, Hitachi Energy Lumada APM, AutoGrid, Uplight, Smarter Grid Solutions, Camus Energy, and EnergyHub (the category leaders).
+A curated list of top **Smart Grid Management** SaaS platforms, Advanced Distribution Management Systems (**ADMS**), Distributed Energy Resource Management Systems (**DERMS**), **SCADA**, Energy Management Systems (**EMS**), Microgrid Controllers, and open-source power system analysis frameworks.
 
-**Open-source emphasis**: Full utility-grade ADMS/DERMS/SCADA platforms remain predominantly commercial due to safety, reliability, and regulatory requirements. However, strong open-source building blocks exist for energy management systems (EMS), microgrids, DER scheduling, home/building energy optimization, and research/prototyping. This section lists every significant relevant project found.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product Name | Description | Pricing | Free Tier / Trial Limits |
-|---|---|---|---|
-| **[OSI Monarch (AspenTech)](https://www.aspentech.com/)** | High-performance OT-native platform for real-time grid telemetry, SCADA, and mission-critical utility operations. | $4,166/month ($50,000/year starting tier) | 30-day request-based sandbox evaluation (up to 25 telemetry points) |
-| **[Siemens Grid Software / Gridscale X](https://www.siemens.com/)** | Comprehensive grid software suite covering planning, operations, ADMS/DERMS capabilities, digital twins, and AI-assisted flexibility management. | $3,800/month ($45,600/year starting tier) | 60-day free trial (up to 150 grid nodes limit) |
-| **[GE Vernova GridOS](https://www.gevernova.com/)** | Grid orchestration platform designed for transmission and distribution, supporting real-time coordination, renewables integration, and resilient operations. | $4,166/month ($50,000/year starting tier) | 30-day proof-of-concept trial (1 simulated substation environment) |
-| **[Schneider Electric EcoStruxure Grid / ADMS](https://www.se.com/)** | Industry-recognized Advanced Distribution Management System with strong DER management, outage response, Volt/VAR optimization, and grid-edge capabilities. | $1,200/month ($14,400/year starting tier) | 30-day free trial (up to 25 connected grid edge assets) |
-| **[Hitachi Energy Lumada APM](https://www.hitachienergy.com/)** | Asset performance and grid management solutions focused on reliability, predictive maintenance, and operational intelligence for power systems. | $2,083/month ($25,000/year starting tier) | 30-day guided evaluation sandbox (up to 50 monitored asset models) |
-| **[AutoGrid Flex](https://www.auto-grid.com/)** | Flexibility management and DERMS platform enabling real-time optimization of distributed energy resources at scale for utilities and aggregators. | $1,250/month ($15,000/year starting tier) | 30-day sandbox trial (up to 10 MW managed capacity / 100 DER endpoints) |
-| **[Uplight](https://www.uplight.com/)** | Customer engagement and energy management platform that helps utilities activate demand-side flexibility and optimize energy use. | $1,666/month ($20,000/year starting tier) | 30-day platform demonstration trial (up to 1,000 simulated customer accounts) |
-| **[Smarter Grid Solutions (ANM Strata)](https://www.smartergridsolutions.com/)** | Active Network Management & DERMS platform focused on autonomous grid control, localized constraint management, and DER orchestration. | $1,666/month ($20,000/year starting tier) | 30-day developer evaluation license (up to 10 DER interconnection nodes) |
-| **[Camus Energy](https://camus.energy/)** | Grid management and DER orchestration SaaS platform enabling real-time visibility, load forecasting, and local flexibility management for utilities. | $1,000/month ($12,000/year starting tier) | 30-day free trial sandbox (up to 5 MW monitored capacity / 50 feeder assets) |
-| **[EnergyHub](https://www.energyhub.com/)** | Grid-edge DERMS and virtual power plant platform connecting utility systems with residential and commercial distributed energy devices. | $1,500/month ($18,000/year starting tier) | 30-day sandbox evaluation trial (up to 500 connected smart device endpoints) |
-
-## Open-Source GitHub Projects
-
-- **[MyEMS](https://github.com/MyEMS/myems)**  
-  Leading open-source Energy Management System aligned with ISO 50001. Supports monitoring, analysis, and reporting of energy and carbon data, with extensions for PV, storage, microgrids, and related use cases.
-
-- **[Alliander DER Scheduling](https://github.com/alliander-opensource/der-scheduling)**  
-  Open-source scheduling stack for Distributed Energy Resources (DER) control according to IEC 61850 standards, aimed at production-grade DER coordination.
-
-- **[EnergyLink Open-Source DERMS](https://github.com/vpdeva/Energylink-Open-Source-DERMS)**  
-  Open-source platform exploring energy data exchange, DERMS concepts, connectors, analytics, and dashboarding for distributed energy systems.
-
-- **[Mini-DERMS / Feeder Controllers](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller)**  
-  Educational and prototyping systems for feeder-level DER coordination, telemetry ingestion, control loops, and operator dashboards.
-
-- **[FTW – Home Energy Management](https://ftw.sourceful.energy/)**  
-  Open-source, local-first home energy management system for solar, batteries, grid interaction, and EV charging with price-aware planning.
-
-- **[Open EMS and microgrid EMS projects](https://github.com/search?q=open+EMS+OR+microgrid+energy+management+OR+DERMS)**  
-  Community and research projects for site-level or microgrid energy management, battery/grid regulation, and optimized power flow.
-
-- **[SCADA & control prototypes](https://github.com/search?q=smart+grid+SCADA+OR+PLC+energy+management)**  
-  Academic and open projects demonstrating real-time monitoring, fault detection, and renewable prioritization using PLC/SCADA concepts.
-
-- **[IEC 61850 and protocol stacks](https://github.com/search?q=IEC+61850+OR+OpenSCADA+OR+libiec61850)**  
-  Open-source libraries and tools supporting power-system communication standards used in smart grid and substation automation.
-
-### Additional Strong Open-Source Options
-
-- **Time-series & analytics stacks**: InfluxDB, TimescaleDB, Grafana, and Prometheus commonly used for grid and DER telemetry.
-- **MQTT / IoT brokers**: Mosquitto and related messaging layers for grid-edge device communication.
-- **Optimization & forecasting libraries**: Open-source tools for load forecasting, unit commitment, optimal power flow, and flexibility scheduling.
-- **GIS & network modeling**: Tools that support grid topology, feeder models, and spatial analysis.
-- **Home/building energy systems**: Broader open-source HEMS and BEMS projects that can interface with utility programs.
-- Research platforms for virtual power plants, demand response, and transactive energy.
-
-**Frameworks for building custom systems**:  
-Utility-scale smart grid management (ADMS, EMS, full DERMS, SCADA) is dominated by commercial platforms because of stringent reliability, cybersecurity, regulatory, and real-time performance requirements.  
-Open-source components excel at energy data management (**MyEMS**), DER scheduling (Alliander and related projects), microgrid/site EMS, home energy optimization (**FTW** and similar), and research/prototyping.  
-Many modern architectures combine commercial core grid systems with open-source analytics, edge control, and flexibility layers. Full replacement of production ADMS/SCADA with open-source remains rare and requires extensive domain expertise and validation.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Smart grid and utility control systems are safety- and mission-critical. They affect power system reliability, public safety, and critical infrastructure. Any software used in live grid operations must meet applicable regulatory, cybersecurity, and operational standards.
-- Open-source projects listed here are primarily suitable for energy management, research, microgrids, DER coordination prototypes, or non-critical layers. They are not drop-in replacements for certified utility ADMS/SCADA/DERMS platforms.
+These operational technology (OT) platforms enable electrical utilities, system operators, and DER aggregators to monitor, control, optimize, and orchestrate real-time grid telemetry, voltage regulation, outage response, and flexible demand response.
 
 ---
 
-**Made for utility operators, grid engineers, DER aggregators, energy technologists, and researchers.**  
-Let's encourage greater openness, interoperability, and innovation in smart grid software where safety and reliability allow.
+## 📌 Table of Contents
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+> 📊 **Market Insights**: The global Smart Grid Management and ADMS/DERMS market size is estimated at **$45.8 Billion in 2026** (projected to reach $100+ Billion by 2032 at a CAGR of ~14.5%). The sector is **moderately concentrated** at the core utility SCADA/ADMS layer (dominated by industrial conglomerates like Siemens, Schneider Electric, Hitachi, GE Vernova, and AspenTech), while experiencing **moderate fragmentation** at the grid-edge DERMS and virtual power plant (VPP) software tier.
+
+| Product Name | Company Size (Valuation / Revenue) | Description | Pricing | Free Tier / Trial Limits |
+|---|---|---|---|---|
+| **[Siemens Grid Software / Gridscale X](https://www.siemens.com/)** | 🏢 ~$230B Market Cap / ~$85B Revenue (Siemens AG) | Comprehensive grid software suite covering planning, operations, ADMS/DERMS capabilities, digital twins, and AI-assisted flexibility management. | $3,800/month ($45,600/year starting tier) | 60-day free trial (up to 150 grid nodes limit) |
+| **[Schneider Electric EcoStruxure Grid / ADMS](https://www.se.com/)** | 🏢 ~$140B Market Cap / ~$40B Revenue (Schneider Electric) | Industry-recognized Advanced Distribution Management System with strong DER management, outage response, Volt/VAR optimization, and grid-edge capabilities. | $1,200/month ($14,400/year starting tier) | 30-day free trial (up to 25 connected grid edge assets) |
+| **[Hitachi Energy Lumada APM](https://www.hitachienergy.com/)** | 🏢 ~$110B Market Cap / ~$70B Revenue (Hitachi Ltd.) | Asset performance and grid management solutions focused on reliability, predictive maintenance, and operational intelligence for power systems. | $2,083/month ($25,000/year starting tier) | 30-day guided evaluation sandbox (up to 50 monitored asset models) |
+| **[GE Vernova GridOS](https://www.gevernova.com/)** | 🏢 ~$50B Market Cap / ~$35B Revenue (GE Vernova) | Grid orchestration platform designed for transmission and distribution, supporting real-time coordination, renewables integration, and resilient operations. | $4,166/month ($50,000/year starting tier) | 30-day proof-of-concept trial (1 simulated substation environment) |
+| **[OSI Monarch (AspenTech)](https://www.aspentech.com/)** | 🏢 ~$15B Market Cap / ~$1.1B Revenue (AspenTech) | High-performance OT-native platform for real-time grid telemetry, SCADA, and mission-critical utility operations. | $4,166/month ($50,000/year starting tier) | 30-day request-based sandbox evaluation (up to 25 telemetry points) |
+| **[Smarter Grid Solutions (ANM Strata)](https://www.smartergridsolutions.com/)** | 🏢 ~$10B Market Cap / ~$150M Division Valuation (Wärtsilä) | Active Network Management & DERMS platform focused on autonomous grid control, localized constraint management, and DER orchestration. | $1,666/month ($20,000/year starting tier) | 30-day developer evaluation license (up to 10 DER interconnection nodes) |
+| **[EnergyHub](https://www.energyhub.com/)** | 🏢 ~$3B Market Cap / ~$100M ARR (Alarm.com parent) | Grid-edge DERMS and virtual power plant platform connecting utility systems with residential and commercial distributed energy devices. | $1,500/month ($18,000/year starting tier) | 30-day sandbox evaluation trial (up to 500 connected smart device endpoints) |
+| **[Uplight](https://www.uplight.com/)** | 🦄 ~$1.5B Valuation (Unicorn) | Customer engagement and energy management platform that helps utilities activate demand-side flexibility and optimize energy use. | $1,666/month ($20,000/year starting tier) | 30-day platform demonstration trial (up to 1,000 simulated customer accounts) |
+| **[AutoGrid Flex](https://www.auto-grid.com/)** | 💼 ~$500M Valuation (Uplight subsidiary) | Flexibility management and DERMS platform enabling real-time optimization of distributed energy resources at scale for utilities and aggregators. | $1,250/month ($15,000/year starting tier) | 30-day sandbox trial (up to 10 MW managed capacity / 100 DER endpoints) |
+| **[Camus Energy](https://camus.energy/)** | 🚀 ~$50M Valuation ($25M+ Venture Funded) | Grid management and DER orchestration SaaS platform enabling real-time visibility, load forecasting, and local flexibility management for utilities. | $1,000/month ($12,000/year starting tier) | 30-day free trial sandbox (up to 5 MW monitored capacity / 50 feeder assets) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+> ⚡ **Note**: While full mission-critical utility ADMS/SCADA systems remain commercial due to strict safety and regulatory compliance, open-source projects provide powerful building blocks for power system analysis, energy management, microgrid control, and IEC 61850 protocol integration.
+
+- **[PyPSA](https://github.com/PyPSA/PyPSA)** [![GitHub stars](https://img.shields.io/github/stars/PyPSA/PyPSA?style=social&color=white)](https://github.com/PyPSA/PyPSA/stargazers)  
+  Python for Power System Analysis. Open-source toolbox for simulating and optimizing modern power systems, optimal power flow (OPF), sector coupling, and high-share renewable integration.
+
+- **[OpenEMS](https://github.com/OpenEMS/openems)** [![GitHub stars](https://img.shields.io/github/stars/OpenEMS/openems?style=social&color=white)](https://github.com/OpenEMS/openems/stargazers)  
+  Open Source Energy Management System. Modular framework for energy management, microgrids, battery energy storage systems (BESS), solar PV regulation, and smart grid edge control.
+
+- **[libIEC61850](https://github.com/mz-automation/libiec61850)** [![GitHub stars](https://img.shields.io/github/stars/mz-automation/libiec61850?style=social&color=white)](https://github.com/mz-automation/libiec61850/stargazers)  
+  Open-source C library implementation of the IEC 61850 communication standard for power system automation, substation communication, MMS, GOOSE, and Sampled Values.
+
+- **[MyEMS](https://github.com/MyEMS/myems)** [![GitHub stars](https://img.shields.io/github/stars/MyEMS/myems?style=social&color=white)](https://github.com/MyEMS/myems/stargazers)  
+  Industry-leading open-source Energy Management System aligned with ISO 50001. Monitors, analyzes, and reports energy and carbon data with extensions for microgrids, PV, and storage.
+
+- **[GridLAB-D](https://github.com/GridLAB-D/gridlab-d)** [![GitHub stars](https://img.shields.io/github/stars/GridLAB-D/gridlab-d?style=social&color=white)](https://github.com/GridLAB-D/gridlab-d/stargazers)  
+  Power distribution system simulation and grid-edge modeling environment developed by US Department of Energy / PNNL for smart grid technology research.
+
+- **[Alliander DER Scheduling](https://github.com/alliander-opensource/der-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/alliander-opensource/der-scheduling?style=social&color=white)](https://github.com/alliander-opensource/der-scheduling/stargazers)  
+  Open-source scheduling stack for Distributed Energy Resources (DER) control according to IEC 61850 standards, aimed at production-grade DER coordination.
+
+- **[EnergyLink Open-Source DERMS](https://github.com/vpdeva/Energylink-Open-Source-DERMS)** [![GitHub stars](https://img.shields.io/github/stars/vpdeva/Energylink-Open-Source-DERMS?style=social&color=white)](https://github.com/vpdeva/Energylink-Open-Source-DERMS/stargazers)  
+  Open-source platform exploring energy data exchange, DERMS concepts, telemetry connectors, analytics, and operator dashboarding.
+
+- **[Mini-DERMS / Feeder Controllers](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller)** [![GitHub stars](https://img.shields.io/github/stars/ceh6514/Mini-DERMS-Feeder-Controller?style=social&color=white)](https://github.com/ceh6514/Mini-DERMS-Feeder-Controller/stargazers)  
+  Educational and prototyping framework for feeder-level DER coordination, SCADA telemetry ingestion, closed-loop control, and operator dashboards.
+
+### 🛠️ Ecosystem Components & Tooling
+- **Time-Series & Analytics Stacks**: InfluxDB, TimescaleDB, Grafana, Prometheus.
+- **Protocol & IoT Messaging**: Mosquitto (MQTT), Modbus, DNP3, IEC 60870-5-104.
+- **Optimization & Forecasting**: PyPSA, SciPy, OpenStudio, GridLAB-D.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository 🍴
+2. Add or edit entries in `README.md` following the tabular format.
+3. Include: Product name, official link, 1–2 sentence description, pricing/trial details, or open-source star badge.
+4. Submit a Pull Request (PR) with a brief summary 🚀
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is **community-curated** for informational and educational purposes.
+- Utility grid control platforms are mission-critical systems affecting public safety and infrastructure security. Live utility deployments must comply with relevant NERC-CIP, IEEE, and local regulatory standards.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Smart-Grid-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Smart-Grid-Management&type=date&legend=top-left)
+
+---
+
+**Made with ❤️ for utility operators, grid engineers, energy technologists, and researchers.**
+
